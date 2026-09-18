@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url(loginbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.login-card {
+  width: 90%;
+  padding: 55px;
+  height: 1100px;
+  background: rgba(10, 20, 40, 0.38);
+  border: 1px solid rgba(80, 140, 255, 0.25);
+  border-radius: 24px;
+  box-shadow:
+    0 0 30px rgba(40, 100, 255, 0.08),
+    0 20px 60px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signup-card {
+  width: 90%;
+  padding: 55px;
+  height: 1200px;
+  background: rgba(10, 20, 40, 0.38);
+  border: 1px solid rgba(80, 140, 255, 0.25);
+  border-radius: 24px;
+  box-shadow:
+    0 0 30px rgba(40, 100, 255, 0.08),
+    0 20px 60px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* MOVE EVERYTHING TOGETHER */
+.login-content {
+  transform: translateY(80px);
+}
+/* WELCOME */
+.login-card welcome {
+  display: block;
+  color: white;
+  font-family: Inter, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.login-card back {
+  color: #8B5CF6;
+  font-weight: bold;
+}
+/* DESCRIPTION */
+.login-card p {
+  color: gray;
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 2;
+}
+/* LABELS */
+.login-card label {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin-top: 40px;
+}
+/* INPUT BOXES */
+.boxes {
+  display: block;
+  width: 100%;
+  height: 80px;
+  background: rgba(8, 7, 24, 0.35);
+  border: 1px solid rgba(145, 76, 255, 0.35);
+  border-radius: 12px;
+  padding: 0 20px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  margin-top: 15px;
+  outline: none;
+  transition: all 0.25s ease;
+}
+.boxes:focus {
+  border-color: #914cff;
+  box-shadow:
+    0 0 0 3px rgba(145, 76, 255, 0.10),
+    0 0 18px rgba(145, 76, 255, 0.12);
+}
+/* REMEMBER ME + FORGOT PASSWORD */
+.remember-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(20px);
+}
+
+.remember-row span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.remember-row span spin {
+  font-family: "Open Sans", sans-serif;
+  margin: 7px;
+}
+
+.remember-row a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #8B5CF6;
+}
+/* CHECKBOX */
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  accent-color: #8B5CF6;
+  border: none;
+}
+/* LOGIN BUTTON */
+.loginbtn {
+  background-color: #8B5CF6;
+  display: block;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  padding: 8px;
+  font-weight: bold;
+  transform: translateX(23%);
+  height: 50px;
+  margin-top: 50px;
+}
+/* OR */
+or {
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  display: block;
+}
+/* GOOGLE BUTTON */
+.contwgoogle {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 79px;
+  background: rgba(8, 7, 24, 0.35);
+  border: 1px solid rgba(145, 76, 255, 0.35);
+  border-radius: 12px;
+  margin-left: 11%;
+  margin-top: 15px;
+  cursor: pointer;
+  gap: 1rem;
+  align-items: center;
+}
+
+.googlelogo {
+  width: 40px;
+  margin-left: 100px;
+}
+
+.contwgoogle p {
+  font-family: "Open Sans", sans-serif;
+
+  font-weight: bold;
+
+  color: white;
+  margin-right: 150px;
+}
+
+
+/* DON'T HAVE AN ACCOUNT */
+.login-card dont {
+  display: block;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: white;
+  margin-top: 80px;
+}
+.login-card dont a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #8B5CF6;
+}
+
