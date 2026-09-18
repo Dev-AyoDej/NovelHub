@@ -176,7 +176,7 @@ header button {
 }
 .featurednovelcards {
   background-color: black;
-  border: 2px solid #7C3AED;
+  border: 2px solid #21002E;
   width: 32%;
   height: 465px;
   border-radius: 20px;
@@ -353,7 +353,9 @@ header button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background: #050b11;
-  height: 320px;
+  height: 390px;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 .feature {
@@ -460,7 +462,7 @@ header button {
 .socialmedsection{
   padding: 50px;
   background: #050b11;
-  height: 410px;
+  height: 510px;
 }
 .socialmedsection h1 {
   text-align: center;
@@ -468,6 +470,7 @@ header button {
   font-family: ArialNarrow;
   font-size: 25px;
   font-weight: bold;
+  padding-top: 80px;
 }
 .socialmedsection p {
   text-align: center;
